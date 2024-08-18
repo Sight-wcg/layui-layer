@@ -102,7 +102,7 @@ var ready = {
 
 // 默认内置方法。
 export var layer = {
-  v: '3.7.0',
+  v: '2.9.15',
   ie: function(){ // ie 版本
     var agent = navigator.userAgent.toLowerCase();
     return (!!window.ActiveXObject || "ActiveXObject" in window) ? (
