@@ -1,5 +1,5 @@
-name: Publish Any Commit
-on: [push, pull_request]
+name: Publish Preview
+on: [pull_request]
 
 jobs:
   build:
@@ -7,13 +7,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - run: corepack enable
-      - uses: actions/setup-node@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "pnpm"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
 
       - name: Install dependencies
         run: pnpm install
