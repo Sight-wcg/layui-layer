@@ -11,7 +11,7 @@
   "dependencies": {
     "servor": "^4.0.2",
     "jquery": "^3.7.1",
-    "@morning-star/layer": "https://pkg.pr.new/Sight-wcg/layui-layer/@morning-star/layer@941e2ed"
+    "@morning-star/layer": "latest"
   },
   "keywords": [],
   "author": "pkg.pr.new",
