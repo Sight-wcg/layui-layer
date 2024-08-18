@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "servor --reload"
+    "dev": "servor --reload"
   },
   "dependencies": {
     "servor": "^4.0.2",
