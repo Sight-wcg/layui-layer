@@ -71,7 +71,7 @@ async function jsWorker() {
 }
 
 async function fontWorker() {
-  const icons = ['tips','success','error','question','lock','face-cry','face-smile','close','right','left','loading','loading-1',];
+  const icons = ['tips','success','error','question','lock','face-cry','face-smile','close','right','left','loading','loading-1','refresh','refresh-1','reduce-circle','add-circle','slider'];
   let svgText = await fetchText(`${repoUrl}HEAD/src/font/iconfont.svg`);
   const xmlDoc = new DOMParser().parseFromString(svgText, 'application/xml');
   const oFont = xmlDoc.getElementsByTagName('font')[0];

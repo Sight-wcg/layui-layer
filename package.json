@@ -1,7 +1,7 @@
 {
   "name": "@morning-star/layer",
   "realname": "layer",
-  "version": "2.8.15",
+  "version": "2.9.20",
   "description": "Web 通用弹出层组件",
   "license": "MIT",
   "scripts": {
